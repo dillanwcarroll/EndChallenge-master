@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4fdca804925a4ff38fee6168503e0cc9" Name="Diagram1">
+        <EntityTypeShape EntityType="challengedatabaseModel.Owner" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="challengedatabaseModel.Pet" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="challengedatabaseModel.Procedure" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="challengedatabaseModel.Treatment" Width="1.5" PointX="6" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="challengedatabaseModel.database_firewall_rules" Width="1.5" PointX="0.75" PointY="6.5" IsExpanded="true" />
+        <AssociationConnector Association="challengedatabaseModel.FK_PETOWNER" ManuallyRouted="false" />
+        <AssociationConnector Association="challengedatabaseModel.FK_TREATMENTOWNER" ManuallyRouted="false" />
+        <AssociationConnector Association="challengedatabaseModel.FK_TREATMENTPROCEDURE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
